@@ -16,10 +16,10 @@ layers:
   - F11
   - F12
   - '`'
-  - Ctl+ Q
-  - Ctl+ W
-  - Ctl+ E
-  - Ctl+ R
+  - Sft+ Q
+  - Sft+ W
+  - Sft+ E
+  - Sft+ R
   - {t: ▽, type: trans}
   - '&PiluTech'
   - '&gg'
