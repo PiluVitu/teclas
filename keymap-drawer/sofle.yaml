@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   PiluVitu: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, RIGHT CONTROL, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, LEFT ALT, RGUI]
+    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, RIGHT ALT, RGUI]
   lower:
   - {t: F1, h: toggle}
   - F2
@@ -98,8 +98,8 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - DEL
-  - BSPC
+  - RIGHT ALT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - CUT
