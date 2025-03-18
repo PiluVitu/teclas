@@ -1,7 +1,66 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  PiluVitu: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, RIGHT CONTROL, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, RIGHT ALT, RGUI]
+  PiluVitu:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - RIGHT CONTROL
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: MUTE, h: AL PREVIOUS TASK}
+  - {t: PLAY PAUSE, h: STOP}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: Meh+F12, h: LEFT WIN}
+  - LALT
+  - LCTRL
+  - lower
+  - SPACE
+  - ENTER
+  - raise
+  - BACKSPACE
+  - RIGHT ALT
+  - RGUI
   lower:
   - {t: F1, h: toggle}
   - F2
@@ -16,17 +75,17 @@ layers:
   - F11
   - F12
   - '`'
-  - Sft+ Q
-  - Sft+ W
-  - Sft+ E
-  - Sft+ R
+  - Sft+Q
+  - Sft+W
+  - Sft+E
+  - Sft+R
   - {t: ▽, type: trans}
   - '&PiluTech'
   - '&gg'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ F4
+  - Alt+F4
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -83,9 +142,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+ E
+  - Ctl+Sft+E
   - {t: ▽, type: trans}
-  - Sft+Ctl+ D
+  - Sft+Ctl+D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+ {
-  - Sft+Ctl+ }
+  - Ctl+Sft+{
+  - Sft+Ctl+}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
