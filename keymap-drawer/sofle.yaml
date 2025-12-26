@@ -137,7 +137,7 @@ layers:
   - ''
   - ''
   - BT CLR
-  - EP TOG
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
